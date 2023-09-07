@@ -34,5 +34,13 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+**Triage and priority**
+
+Provide [Severity](https://developer.adobe.com/commerce/contributor/guides/code-contributions/#community-backlog-priority) assessment for the Issue as a Reporter.
+
+This information helps us during the Confirmation and Issue triage processes.
+-[] 'Severity: **S0** _- Affects critical data or functionality and leaves users without workaround._'
+-[] label: 'Severity: **S1** _- Affects critical data or functionality and forces users to employ a workaround._'
+-[] label: 'Severity: **S2** _- Affects non-critical data or functionality and forces users to employ a workaround._'
+-[] label: 'Severity: **S3** _- Affects non-critical data or functionality and does not force users to employ a workaround._'
+-[] label: 'Severity: **S4** _- Affects aesthetics, professional look and feel, “quality” or “usability”._'
