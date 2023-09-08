@@ -8,3 +8,12 @@
 
 # command to run website locally
 ## php -S localhost:8000 public/index.php
+
+# Autoloading
+
+### Create composer file named "composer.json"
+    Add required configuration in composer file
+    for autoloading autoload configuration added in composer.json
+### run command to dump your autoload files
+
+docker compose exec app composer dump-autoload
