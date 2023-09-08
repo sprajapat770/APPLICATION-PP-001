@@ -1,0 +1,19 @@
+{
+    "name": "suraj/php-web-application",
+    "description": "PHP Web application",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        { "name": "Suraj Prajapat", "email": "sprajapat770@gmail.com" }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/",
+            "Suraj\\Framework\\":"framework/"
+        }
+    },
+    "require": {
+
+    }
+
+}
