@@ -17,3 +17,5 @@
 ### run command to dump your autoload files
 
 docker compose exec app composer dump-autoload
+#### add new composer dependency
+    command : docker compose exec app composer require symfony/var-dumper
