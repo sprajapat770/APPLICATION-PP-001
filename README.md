@@ -29,3 +29,6 @@ docker compose exec app composer dump-autoload
     instantiate class in index.php
     dump request
     
+### images
+    ![Preview image](../images/Screenshot_1.png)
+    ![Preview image](../images/Screenshot_2.png)
