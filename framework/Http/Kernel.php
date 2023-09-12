@@ -34,6 +34,7 @@ class Kernel
         );
 
         [$status, [$controller, $method], $vars] = $routeInfo;
+        [$status, $handler, $vars] = $routeInfo;
         //call the handler, provided by the route info, in order to create a Response
         $response = (new $controller())->$method($vars);
 
