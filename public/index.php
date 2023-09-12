@@ -1,5 +1,6 @@
 <?php declare(strict_types=1);
 use Suraj\Framework\Http\Request;
+use Suraj\Framework\Http\Response;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
@@ -7,7 +8,8 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
 $request = Request::createFromGlobals();
 
 //perform some logic
-dd($request);
-//send response (string of content)
+$content =  "<h1>hello world</h1>";
 
-echo "hello world";
+$response = new Response(content: $content, status: 200, header: []);
+//send response (string of content)
+$response->send();
