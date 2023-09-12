@@ -30,5 +30,6 @@ docker compose exec app composer dump-autoload
     dump request
     
 ### images
-    ![Preview image](../images/Screenshot_1.png)
-    ![Preview image](../images/Screenshot_2.png)
+![ALT TEXT](images/Screenshot_1.png)
+![ALT TEXT](images/Screenshot_2.png)
+
