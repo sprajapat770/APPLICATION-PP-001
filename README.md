@@ -32,3 +32,6 @@ docker compose exec app composer dump-autoload
 ### images
 ![ALT TEXT](images/Screenshot_1.png)
 ![ALT TEXT](images/Screenshot_2.png)
+
+### Handle request and response with single class entiry
+    kernel handle which accept request and return response.
