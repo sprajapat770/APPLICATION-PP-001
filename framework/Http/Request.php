@@ -28,6 +28,6 @@ class Request
 
     public function getPathInfo(): string
     {
-        return strtok($this->server['REQUEST_METHOD'], '?');
+        return strtok($this->server['REQUEST_URI'], '?');
     }
 }
