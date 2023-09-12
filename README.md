@@ -35,3 +35,17 @@ docker compose exec app composer dump-autoload
 
 ### Handle request and response with single class entiry
     kernel handle which accept request and return response.
+
+    Uri : users/55
+
+    Route: users/{id:\d+}
+    handler: user-handler($id)
+
+### install 3rd party dependency nikic fastroute
+    composer require nikic/fast-route
+    docker compose exec app composer require nikic/fast-route
+
+## handle route request with nikic fastroute
+    code implemented in framework/Http/Kernel.php
+    add route posts/{id:\d+}
+    add route /
