@@ -19,3 +19,13 @@
 docker compose exec app composer dump-autoload
 #### add new composer dependency
     command : docker compose exec app composer require symfony/var-dumper
+
+# Request Classes
+
+### install the symfony http compoentn module 
+    composer require symfony/http-foundation
+### create a framework class to handle requests
+    framewwork/http/request.php
+    instantiate class in index.php
+    dump request
+    
